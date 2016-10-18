@@ -9,7 +9,7 @@
 }
 
 .nav {
-  background-color: white;
+  background-color: #1e1e1e;
   height: 170px;
   width: 100%;
   border-bottom: solid black;
@@ -28,6 +28,7 @@
   padding: 0px 10px;
   list-style: none;
   font-size: 25px;
+  color: white;
 }
 
 .section-text {
