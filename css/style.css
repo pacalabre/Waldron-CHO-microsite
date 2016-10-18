@@ -1,9 +1,15 @@
 
+/*body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}*/
+
 .container-fluid {
   padding: 0px 0px;
 }
 
 .nav {
+  background-color: white;
   height: 170px;
   width: 100%;
   border-bottom: solid black;
@@ -28,6 +34,10 @@
   clear: both;
   margin-top: 50px;
   font-size: 17px;
+}
+
+.main-events-h2 {
+  clear: both;
 }
 
 
@@ -73,4 +83,12 @@
   float: left;
   width: 100%;
   border: 0;
+  }
+
+  .main-section-calendar {
+    text-align: center;
+  }
+
+  .main-calendar-h2 {
+
   }
