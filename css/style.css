@@ -1,4 +1,36 @@
 
+.container-fluid {
+  padding: 0px 0px;
+}
+
+.nav {
+  height: 170px;
+  width: 100%;
+  border-bottom: solid black;
+}
+
+.nav-brand-img {
+  height:100px;
+  margin: 30px;
+}
+.nav-ul {
+  float: right;
+  padding: 60px 30px;
+}
+.nav-ul-li {
+  float: left;
+  padding: 0px 10px;
+  list-style: none;
+  font-size: 25px;
+}
+
+.section-text {
+  clear: both;
+  margin-top: 50px;
+  font-size: 17px;
+}
+
+
 /* Carousel Styles */
 
 .section-carousel {
