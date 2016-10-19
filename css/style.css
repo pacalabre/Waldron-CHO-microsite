@@ -33,8 +33,12 @@
 
 .section-text {
   clear: both;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 17px;
+}
+
+.top-text {
+  margin-top: 70px;
 }
 
 .main-events-h2 {
@@ -92,4 +96,8 @@
 
   .main-calendar-h2 {
 
+  }
+
+  .nav-ul-li:hover {
+    border-bottom: solid #ffcc00;
   }
