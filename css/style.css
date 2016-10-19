@@ -4,6 +4,10 @@
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }*/
 
+.main {
+  z-index: 1;
+}
+
 .container-fluid {
   padding: 0px 0px;
 }
@@ -22,7 +26,6 @@
 .nav-ul-desktop {
   float: right;
   padding: 60px 30px;
-  display: none;
 }
 
 .mobile-menu {
@@ -30,13 +33,32 @@
   font-size: 35px;
   float: right;
   margin: 65px 50px;
+
 }
 
 .nav-ul-mobile {
+  background-color: #1e1e1e;
+  float: right;
+  width: 100%;
+}
+
+.hide-menu {
   display: none;
 }
 
-.nav-ul-li {
+.show-menu {
+  display:block;
+}
+
+.mobile-li {
+  list-style: none;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.desktop-li {
   float: left;
   padding: 0px 10px;
   list-style: none;
@@ -166,4 +188,8 @@
 .form-btn:hover {
   background-color: #1e1e1e;
   color: #ffcc00;
+}
+
+a:hover {
+  text-decoration: none;
 }

@@ -1,8 +1,13 @@
+
+// Page Slide Show
+
 $(function() {
     $(".rslides").responsiveSlides({
       auto:true,
     });
   });
+
+// Calendar Plugin
 
 var eventData = [
   {
@@ -29,12 +34,8 @@ $(document).ready(function () {
         });
     })
 
-// $("#my-calendar").zabuto_calendar( { data: [{
-//   "date": "2016-10-19",
-//   "badge": true,
-//   "title": "YEEZY",
-//   "body":"<p>Ultra Light</p>",
-//   "footer":"Key Arena"
-// }] } );
-
+// Mobile Menu
+$('#mobileBtn').click(function(){
+  $('#mobileMenu').toggleClass('hide-menu');
+})
 
