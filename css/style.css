@@ -193,3 +193,13 @@
 a:hover {
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+  .nav-ul-desktop {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
