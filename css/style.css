@@ -19,10 +19,23 @@
   height:100px;
   margin: 30px;
 }
-.nav-ul {
+.nav-ul-desktop {
   float: right;
   padding: 60px 30px;
+  display: none;
 }
+
+.mobile-menu {
+  color: white;
+  font-size: 35px;
+  float: right;
+  margin: 65px 50px;
+}
+
+.nav-ul-mobile {
+  display: none;
+}
+
 .nav-ul-li {
   float: left;
   padding: 0px 10px;
