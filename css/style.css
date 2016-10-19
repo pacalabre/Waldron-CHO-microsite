@@ -99,6 +99,8 @@
     margin-top: 30px;
     background-color: #1e1e1e;
     background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    margin-bottom: 100px;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   }
 
   .main-contact-h2 {
@@ -126,13 +128,10 @@
     border: none;
   }
 
-
-
   .footer {
     text-align: center;
     margin-top: 70px;
     clear: both;
-
   }
 
   .footer-img {
