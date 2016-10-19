@@ -92,12 +92,63 @@
 
   .main-section-calendar {
     text-align: center;
+    padding: 20px 5px;
   }
 
-  .main-calendar-h2 {
+  .main-section-form {
+    margin-top: 30px;
+    background-color: #1e1e1e;
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  }
+
+  .main-contact-h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form-label {
+    color: white;
+    margin-bottom: 5px;
+    margin-left: -15px;
+  }
+
+  .form-textarea {
+    margin-top: 15px;
+    height: 150px;
+  }
+
+  .form-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #ffcc00;
+    border: none;
+  }
+
+
+
+  .footer {
+    text-align: center;
+    margin-top: 70px;
+    clear: both;
 
   }
+
+  .footer-img {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+  }
+
+
+  /* Hover Styles */
 
   .nav-ul-li:hover {
     border-bottom: solid #ffcc00;
+  }
+
+  .form-btn:hover {
+    background-color: #1e1e1e;
+    color: #ffcc00;
   }
