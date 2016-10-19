@@ -37,7 +37,7 @@
   font-size: 17px;
 }
 
-.top-text {
+.section-top {
   margin-top: 70px;
 }
 
@@ -88,66 +88,69 @@
   float: left;
   width: 100%;
   border: 0;
-  }
+}
 
-  .main-section-calendar {
-    text-align: center;
-    padding: 20px 5px;
-  }
+.main-section-events {
+  margin-top: 20px;
+}
 
-  .main-section-form {
-    margin-top: 30px;
-    background-color: #1e1e1e;
-    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-    margin-bottom: 100px;
-    background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
-  }
+.main-section-calendar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
-  .main-contact-h2 {
-    color: white;
-    text-align: center;
-    margin-bottom: 30px;
-  }
+.main-section-form {
+  margin-top: 30px;
+  background-color: #1e1e1e;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  margin-bottom: 100px;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+}
 
-  .form-label {
-    color: white;
-    margin-bottom: 5px;
-    margin-left: -15px;
-  }
+.main-contact-h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-  .form-textarea {
-    margin-top: 15px;
-    height: 150px;
-  }
+.form-label {
+  color: white;
+  margin-bottom: 5px;
+  margin-left: -15px;
+}
 
-  .form-btn {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: black;
-    background-color: #ffcc00;
-    border: none;
-  }
+.form-textarea {
+  margin-top: 15px;
+  height: 150px;
+}
 
-  .footer {
-    text-align: center;
-    margin-top: 70px;
-    clear: both;
-  }
+.form-btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: #ffcc00;
+  border: none;
+}
 
-  .footer-img {
-    margin: 0 auto;
-    display: block;
-    width: 300px;
-  }
+.footer {
+  text-align: center;
+  margin-top: 70px;
+  clear: both;
+}
 
+.footer-img {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
 
-  /* Hover Styles */
+/* Hover Styles */
 
-  .nav-ul-li:hover {
-    border-bottom: solid #ffcc00;
-  }
+.nav-ul-li:hover {
+  border-bottom: solid #ffcc00;
+}
 
-  .form-btn:hover {
-    background-color: #1e1e1e;
-    color: #ffcc00;
-  }
+.form-btn:hover {
+  background-color: #1e1e1e;
+  color: #ffcc00;
+}
