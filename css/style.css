@@ -148,8 +148,9 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .event-list {
-  margin-top: 55px;
+  /*margin-top: 55px;*/
   font-size: 20px;
+  padding: 0px 15px 15px 15px;
 }
 
 .main-section-form {
