@@ -171,8 +171,10 @@ h1,h2,h3,h4,h5,h6, p {
 
 .form-label {
   color: white;
-  margin-bottom: 5px;
-  margin-left: -15px;
+  padding-left: 8%;
+  padding-top: 8px;
+  /*margin-bottom: 5px;
+  margin-left: -15px;*/
 }
 
 .form-textarea {
@@ -199,6 +201,10 @@ h1,h2,h3,h4,h5,h6, p {
   margin: 0 auto;
   display: block;
   width: 300px;
+}
+
+.copyright {
+  font-size: 15px;
 }
 
 /* Hover Styles */
