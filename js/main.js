@@ -3,7 +3,11 @@
 
 $(function() {
     $(".rslides").responsiveSlides({
-      auto:true,
+      auto:false,
+      // nav: true,
+      pager: true,
+      // preText: "Previous",
+      // nextText: "Next"
     });
   });
 
