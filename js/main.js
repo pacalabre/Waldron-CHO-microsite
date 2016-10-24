@@ -1,16 +1,4 @@
 
-// Page Slide Show
-
-// $(function() {
-//     $(".rslides").responsiveSlides({
-//       auto:false,
-//       // nav: true,
-//       pager: true,
-//       // preText: "Previous",
-//       // nextText: "Next"
-//     });
-//   });
-
 // Calendar Plugin
 
 var eventData = [
@@ -43,9 +31,5 @@ $('#mobileBtn').click(function(){
   $('#mobileMenu').toggleClass('hide-menu');
 })
 
-
-$( function() {
-    $( '#gallery' ).jGallery( { mode: 'slider' } );
-} );
 
 
