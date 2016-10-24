@@ -31,45 +31,6 @@ h1,h2,h3,h4,h5,h6, p {
   z-index: 10000;
 }
 
-/*.rslides1_s1 {
-  padding: 7px;
-  margin: 2px;
-  float: left;
-  border: none;
-  color: black;
-  list-style: none
-}
-
-.rslides1_s1 > a {
-  border: solid black;
-}
-
-.rslides1_s2 {
-  padding: 7px;
-  margin: 2px;
-  float: left;
-  border: none;
-  color: black;
-  list-style: none
-}
-
-.rslides1_s2 > a {
-  border: solid black;
-}
-
-.rslides1_s3 {
-  padding: 7px;
-  margin: 2px;
-  float: left;
-  border: none;
-  color: black;
-  list-style: none
-}
-
-.rslides1_s3 > a {
-  border: solid black;
-}*/
-
 .active {
   border-bottom: #f39c12 solid thin;
 }
