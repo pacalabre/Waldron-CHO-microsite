@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6, p {
   padding: 0px 0px;
 }
 
-.nav {
+.nav-top {
   background-color: #1e1e1e;
   height: 170px;
   width: 100%;
@@ -30,6 +30,45 @@ h1,h2,h3,h4,h5,h6, p {
   position: fixed;
   z-index: 10000;
 }
+
+/*.rslides1_s1 {
+  padding: 7px;
+  margin: 2px;
+  float: left;
+  border: none;
+  color: black;
+  list-style: none
+}
+
+.rslides1_s1 > a {
+  border: solid black;
+}
+
+.rslides1_s2 {
+  padding: 7px;
+  margin: 2px;
+  float: left;
+  border: none;
+  color: black;
+  list-style: none
+}
+
+.rslides1_s2 > a {
+  border: solid black;
+}
+
+.rslides1_s3 {
+  padding: 7px;
+  margin: 2px;
+  float: left;
+  border: none;
+  color: black;
+  list-style: none
+}
+
+.rslides1_s3 > a {
+  border: solid black;
+}*/
 
 .active {
   border-bottom: #f39c12 solid thin;
@@ -109,8 +148,8 @@ h1,h2,h3,h4,h5,h6, p {
 
 /* Carousel Styles */
 
-.section-carousel {
-  /*padding-top: 220px;*/
+/*.section-carousel {
+
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -150,7 +189,7 @@ h1,h2,h3,h4,h5,h6, p {
   width: 100%;
   border: 0;
 }
-
+*/
 .main-section-events {
   margin-top: 20px;
 }
@@ -258,4 +297,24 @@ a:hover {
   .mobile-menu {
     display: none;
   }
+
+  .desktop-header {
+    display: block;
+  }
+
+  .mobile-header {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
 }

@@ -1,15 +1,15 @@
 
 // Page Slide Show
 
-$(function() {
-    $(".rslides").responsiveSlides({
-      auto:false,
-      // nav: true,
-      pager: true,
-      // preText: "Previous",
-      // nextText: "Next"
-    });
-  });
+// $(function() {
+//     $(".rslides").responsiveSlides({
+//       auto:false,
+//       // nav: true,
+//       pager: true,
+//       // preText: "Previous",
+//       // nextText: "Next"
+//     });
+//   });
 
 // Calendar Plugin
 
@@ -42,5 +42,10 @@ $(document).ready(function () {
 $('#mobileBtn').click(function(){
   $('#mobileMenu').toggleClass('hide-menu');
 })
+
+
+$( function() {
+    $( '#gallery' ).jGallery( { mode: 'slider' } );
+} );
 
 
