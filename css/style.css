@@ -18,6 +18,14 @@ h1,h2,h3,h4,h5,h6, p {
   margin-top: 200px;
 }
 
+.modal-content {
+  border-radius: 0px;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
 .container-fluid {
   padding: 0px 0px;
 }
