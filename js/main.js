@@ -5,16 +5,16 @@ var eventData = [
   {
     "date": "2016-10-19",
     "badge": false,
-    "title": "YEEZY",
-    "body":"<p>Ultra Light</p>",
-    "footer":"Key Arena"
+    "title": "CHO Event",
+    "body":"<p>Event Info</p>",
+    "footer":"Seattle"
   },
   {
     "date": "2016-10-23",
     "badge": false,
-    "title": "Bulls",
-    "body":"<p>Ultra Light</p>",
-    "footer":"Definitely not at Key Arena"
+    "title": "CHO Event",
+    "body":"<p>Portland</p>",
+    "footer":"Portland"
   }
 ];
 
