@@ -1,9 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Open+Sans');
 
-h1,h2,h3,h4,h5,h6, p {
-  font-family: Montserrat, Raleway;
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Poppins';
+  color: #303030;
 }
+
+p {
+  font-family: 'Open Sans';
+  color: #303030;
+}
+
 
 /*body {
   background-color: #ffffff;
@@ -135,7 +142,7 @@ h1,h2,h3,h4,h5,h6, p {
   margin-top: 30px;
   background-color: #1e1e1e;
   margin-bottom: 100px;
-  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  /*background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");*/
 }
 
 .main-contact-h2 {
