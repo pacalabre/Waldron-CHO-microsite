@@ -41,7 +41,6 @@ p {
   background-color: #1e1e1e;
   height: 170px;
   width: 100%;
-  border-bottom: solid black;
   position: fixed;
   z-index: 10000;
 }
@@ -72,6 +71,7 @@ p {
   background-color: #1e1e1e;
   float: right;
   width: 100%;
+  border-bottom: solid white thin;
 }
 
 .hide-menu {
