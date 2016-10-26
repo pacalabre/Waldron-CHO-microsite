@@ -39,8 +39,9 @@ p {
 
 .nav-top {
   background-color: #1e1e1e;
-  height: 170px;
-  width: 100%;
+  height: 100%;
+  width: 25%;
+  margin-left: 75%;
   position: fixed;
   z-index: 10000;
 }
@@ -50,11 +51,12 @@ p {
 }
 
 .nav-brand-img {
-  height:100px;
-  margin: 30px;
+  height: 100px;
+  margin: 6em auto;
+  display: block;
 }
 .nav-ul-desktop {
-  float: right;
+  /*float: right;*/
   padding: 60px 30px;
 }
 
@@ -91,11 +93,12 @@ p {
 }
 
 .desktop-li {
-  float: left;
+  /*float: left;*/
   padding: 0px 10px;
   list-style: none;
   font-size: 25px;
   color: white;
+  text-align: center;
 }
 
 .section-text {
