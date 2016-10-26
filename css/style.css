@@ -65,7 +65,7 @@ p {
   /*color: #f39c12;*/
   font-size: 35px;
   float: right;
-  margin: 65px 50px;
+  margin: 25px 35px;
 
 }
 
@@ -129,6 +129,10 @@ p {
   display: block;
 }
 
+.desktop-carousel {
+  margin-top: 30px;
+}
+
 .main-events-h2 {
   clear: both;
 }
@@ -143,7 +147,7 @@ p {
 }
 
 .main-section-events {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .main-section-calendar {
@@ -188,7 +192,7 @@ p {
 }
 
 .cho-btn {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
   color: black;
   background-color: #ffcc00;
@@ -231,7 +235,7 @@ p {
   color: #f39c12;
   color: white;
   border: solid white thin;
-  margin-top:19px;
+  margin-top:39px;
   margin-bottom: 19px;
 }
 
@@ -239,7 +243,45 @@ a:hover {
   text-decoration: none;
 }
 
+
+
+@media (max-width: 767px) {
+
+  .nav {
+    margin-left: 0px;
+  }
+
+  .nav-top {
+    background-color: transparent;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -5px;
+  }
+
+  .mobile-menu {
+    color: #1e1e1e;
+  }
+
+  .nav-brand-img {
+    display: none;
+  }
+
+  .nav-events {
+    display: none;
+  }
+
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+}
+
 @media (min-width: 768px) {
+
   .nav-ul-desktop {
     display: block;
   }
@@ -255,16 +297,4 @@ a:hover {
   .mobile-header {
     display: none;
   }
-}
-
-@media (max-width: 767px) {
-
-  .desktop-header {
-    display: none;
-  }
-
-  .mobile-header {
-    display: block;
-  }
-
 }
