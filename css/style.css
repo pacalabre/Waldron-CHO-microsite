@@ -69,7 +69,6 @@ p {
   font-size: 35px;
   float: right;
   margin: 25px 35px;
-
 }
 
 .nav-ul-mobile {
@@ -77,6 +76,7 @@ p {
   float: right;
   width: 100%;
   border-bottom: solid white thin;
+  margin-top: -10px;
 }
 
 .nav-events {
@@ -272,8 +272,18 @@ a:hover {
     margin-top: -5px;
   }
 
+  .mobile-menu-clicked-background {
+    background-color: #1e1e1e;
+  }
+
+
   .mobile-menu {
     color: #1e1e1e;
+  }
+
+  .mobile-menu-clicked-hamburger {
+    color: white;
+    transform: 1s ease-in;
   }
 
   .nav-brand-img {
