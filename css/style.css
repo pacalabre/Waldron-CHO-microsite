@@ -153,6 +153,7 @@ p {
 .main-section-calendar {
   margin-top: 40px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .event-list {
@@ -161,6 +162,10 @@ p {
   text-decoration: underline;
   list-style: none;
   cursor: pointer;
+}
+
+.event-list-li {
+  padding: 5px;
 }
 
 .main-section-form {
