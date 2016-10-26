@@ -111,6 +111,11 @@ p {
   margin-top: 70px;
 }*/
 
+.contact-btn {
+  margin: auto auto;
+  display: block;
+}
+
 .main-events-h2 {
   clear: both;
 }
@@ -169,13 +174,16 @@ p {
   height: 150px;
 }
 
-.form-btn {
-  margin-top: 10px;
+.cho-btn {
+  margin-top: 20px;
   margin-bottom: 20px;
   color: black;
   background-color: #ffcc00;
   background-color: #f39c12;
   border: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .footer {
@@ -205,9 +213,13 @@ p {
   color: #f39c12;
 }
 
-.form-btn:hover {
+.cho-btn:hover {
   background-color: #1e1e1e;
   color: #f39c12;
+  color: white;
+  border: solid white thin;
+  margin-top:19px;
+  margin-bottom: 19px;
 }
 
 a:hover {
