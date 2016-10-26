@@ -61,7 +61,7 @@ p {
   display: block;
 }
 .nav-ul-desktop {
-  /*padding: 0px  30px 55px;*/
+  padding: 0px  0px 55px 0px;
 }
 
 .mobile-menu {
@@ -111,7 +111,7 @@ p {
 .desktop-li {
   /*float: left;*/
   padding: 0px 10px;
-  margin: 0px 30%;
+  margin: 0px 20%;
   list-style: none;
   font-size: 25px;
   color: white;
@@ -345,4 +345,25 @@ a:hover {
     overflow: visible;
     margin-left: -15px;
   }
+}
+
+@media only screen and (min-width : 1200px) {
+
+  .desktop-li {
+    margin: 0 30%;
+    font-size: 30px;
+  }
+
+  .nav-brand-img {
+    height: 150px;
+  }
+
+  .nav-events-li {
+    font-size: 20px;
+  }
+
+  .cho-btn {
+    font-size: 18px;
+  }
+
 }
