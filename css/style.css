@@ -52,7 +52,7 @@ p {
 }
 
 .active {
-  border-bottom: #f39c12 solid thin;
+  border: #f39c12 solid thin;
 }
 
 .nav-brand-img {
@@ -61,7 +61,7 @@ p {
   display: block;
 }
 .nav-ul-desktop {
-  padding: 0px 30px 30px 30px;
+  /*padding: 0px  30px 55px;*/
 }
 
 .mobile-menu {
@@ -111,6 +111,7 @@ p {
 .desktop-li {
   /*float: left;*/
   padding: 0px 10px;
+  margin: 0px 30%;
   list-style: none;
   font-size: 25px;
   color: white;
@@ -251,6 +252,10 @@ p {
   margin-top:39px;
   margin-bottom: 19px;
   cursor: pointer;
+}
+
+.active:hover {
+  color: white;
 }
 
 a:hover {
