@@ -1,4 +1,5 @@
 
+
 // Calendar Plugin
 
 var eventData = [
@@ -26,7 +27,9 @@ $(document).ready(function () {
         });
     })
 
+
 // Mobile Menu
+
 $('#mobileBtn').click(function(){
   $('#mobileMenu').toggleClass('hide-menu');
   $('#navTop').toggleClass('mobile-menu-clicked-background');
