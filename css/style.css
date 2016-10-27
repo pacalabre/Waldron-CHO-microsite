@@ -5,12 +5,12 @@
 /* Base Styles and Reusables */
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', arial black;
   color: #303030;
 }
 
 p {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', arial;
   color: #303030;
 }
 
@@ -238,17 +238,13 @@ p {
 
 /* Hover Styles */
 
-.desktop-li:hover {
-  color: #ffcc00;
-}
-
-.mobile-li:hover {
+.nav-events-li:hover, .event-list-li:hover,
+.desktop-li:hover, .mobile-li:hover  {
   color: #f39c12;
 }
 
 .cho-btn:hover {
   background-color: #1e1e1e;
-  color: #f39c12;
   color: white;
   border: solid white thin;
   margin-top:39px;
