@@ -60,6 +60,7 @@ p {
   margin-left: 75%;
   position: fixed;
   z-index: 10000;
+  border-left: solid white thin;
 }
 
 .active {
