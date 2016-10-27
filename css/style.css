@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins|Open+Sans');
 
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Poppins';
   color: #303030;
@@ -177,7 +178,7 @@ p {
 .main-section-form {
   margin-top: 30px;
   background-color: #1e1e1e;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
   /*background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");*/
 }
 
@@ -218,9 +219,11 @@ p {
 }
 
 .footer {
+  background-color: #1e1e1e;
   text-align: center;
-  margin-top: 70px;
+  padding-top: 70px;
   clear: both;
+  height: 100%;
 }
 
 .footer-img {
@@ -231,6 +234,8 @@ p {
 
 .copyright {
   font-size: 15px;
+  color: white;
+  padding-bottom: 20px;
 }
 
 /* Hover Styles */
@@ -345,6 +350,14 @@ a:hover {
     overflow: visible;
     margin-left: -15px;
   }
+}
+
+@media only screen and (min-width : 992px) {
+
+  .nav-events-li {
+    font-size: 18px;
+  }
+
 }
 
 @media only screen and (min-width : 1200px) {
