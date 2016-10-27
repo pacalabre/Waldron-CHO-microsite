@@ -91,6 +91,7 @@ p {
 
 .nav-events-li {
   margin: 15px 7px;
+  cursor: pointer;
 }
 
 .hide-menu {
