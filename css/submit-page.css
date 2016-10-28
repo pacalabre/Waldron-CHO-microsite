@@ -1,3 +1,36 @@
-body {
-  background-color: blue;
+.thank-you-message {
+  text-align: center;
+  margin: 100px 12%;
+  padding-bottom: 6em;
+}
+
+.cho-logo {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.return-btn {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: #ffcc00;
+  background-color: #f39c12;
+  border: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.return-btn:hover {
+  text-decoration: none;
+  background-color: #1e1e1e;
+  color: white;
+  border: solid white thin;
+  margin-top:39px;
+  margin-bottom: 19px;
+  cursor: pointer;
 }
