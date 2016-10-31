@@ -186,6 +186,10 @@ p {
   padding: 5px;
 }
 
+.section-previous-events {
+  clear: both;
+}
+
 
 /* Contact Section */
 
