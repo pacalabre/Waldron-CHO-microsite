@@ -20,7 +20,7 @@ p {
 }
 
 .modal {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .modal-content {
@@ -188,6 +188,12 @@ p {
 
 .section-previous-events {
   clear: both;
+  display: none;
+}
+
+.iframe-pdf {
+  width: 90%;
+  height: 500px;
 }
 
 
@@ -326,6 +332,10 @@ a:hover {
 
   .mobile-header {
     display: none;
+  }
+
+  .section-previous-events {
+    display: block;
   }
 }
 
