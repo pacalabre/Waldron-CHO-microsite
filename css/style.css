@@ -6,12 +6,12 @@
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Poppins', arial black;
-  color: #303030;
+  color: #1a1a1a;
 }
 
 p {
-  font-family: 'Open Sans', arial;
-  color: #303030;
+  font-family: 'Poppins', arial;
+  color: #1a1a1a;
 }
 
 .row {
@@ -54,7 +54,7 @@ p {
 /* Nav Styles */
 
 .nav-top {
-  background-color: #1e1e1e;
+  background-color: #1a1a1a;
   height: 100%;
   width: 25%;
   margin-left: 75%;
@@ -161,7 +161,7 @@ p {
 }
 
 .section-header-img {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .main-section-events {
