@@ -14,6 +14,14 @@ p {
   color: #1a1a1a;
 }
 
+a {
+  color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -94,7 +102,7 @@ p {
 
 .nav-events {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 13px;
   list-style: none;
   text-align: center;
@@ -221,6 +229,8 @@ p {
   color: white;
   padding-left: 8%;
   padding-top: 8px;
+  font-family: 'Poppins', arial;
+  font-size: 17px;
 }
 
 .form-textarea {
@@ -374,10 +384,6 @@ a:hover {
 
   .nav-brand-img {
     height: 150px;
-  }
-
-  .nav-events-li {
-    font-size: 20px;
   }
 
   .cho-btn {
