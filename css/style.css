@@ -77,12 +77,12 @@ a:visited {
 
 .nav-brand-img {
   height: 100px;
-  margin: 6em auto;
+  margin: 3em auto;
   display: block;
 }
 
 .nav-ul-desktop {
-  padding: 0px  0px 55px 0px;
+  padding: 0px  0px 35px 0px;
 }
 
 .mobile-menu {
@@ -98,6 +98,11 @@ a:visited {
   width: 100%;
   border-bottom: solid white thin;
   margin-top: -10px;
+}
+
+.nav-event-header {
+  color: white;
+  font-size: 20px;
 }
 
 .nav-events {
@@ -165,7 +170,7 @@ a:visited {
 }
 
 .section-header {
-  padding-top: 82px;
+  padding-top: 41px;
 }
 
 .section-header-img {
@@ -370,6 +375,10 @@ a:hover {
 
 @media only screen and (min-width : 992px) {
 
+  .nav-event-header {
+    font-size: 22px;
+  }
+
   .nav-events-li {
     font-size: 18px;
   }
@@ -377,13 +386,25 @@ a:hover {
 
 @media only screen and (min-width : 1200px) {
 
+  .nav-ul-desktop {
+  padding-bottom: 55px;
+}
+
+  .section-header {
+    padding-top: 55px;
+  }
+
+  .nav-brand-img {
+    margin: 4em auto;
+  }
+
   .desktop-li {
     margin: 0 28%;
     font-size: 30px;
   }
 
   .nav-brand-img {
-    height: 150px;
+    height: 120px;
   }
 
   .cho-btn {
