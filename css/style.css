@@ -112,16 +112,23 @@ a:visited {
   list-style: none;
   text-align: center;
   margin-top: -20px;
+  font-weight: 200;
 }
 
 .nav-events-li {
-  margin: 15px 7px;
+  margin: 17px 7px;
   cursor: pointer;
+  font-size: 15px;
+}
+
+.event-title {
+  font-weight: 700;
 }
 
 .nav-events-location {
-  font-size: 13px;
-  margin-top: -30px;
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: -38px;
 }
 
 .nav-news {
@@ -431,7 +438,7 @@ a:hover {
   }
 
   .nav-events-location {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .nav-news-li {
