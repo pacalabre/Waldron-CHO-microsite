@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="compressed-images/cho-fav.png">
     <link rel="apple-touch-icon" sizes="180x180" href="compressed-images/apple-touch-icon-180x180-min.png" />
-    <link rel="stylesheet" type="text/css" href="cho-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/zabuto_calendar.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,18 +25,48 @@
       <!-- Mobile Menu -->
       <span id="mobileBtn"  class="mobile-menu glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
       <ul id="mobileMenu"  class="nav-ul-mobile hide-menu">
-        <a href="/"><li class="mobile-li">Seattle</li></a>
+        <a href="index.html"><li class="mobile-li">Seattle</li></a>
         <a href="portland.html"><li class="mobile-li">Portland</li></a>
         <a href="phoenix.html"><li class="mobile-li">Phoenix</li></a>
       </ul>
       <section class="nav-events">
-        <a target="blank" href="http://www.pages02.net/waldronhr/CHORSVPPDX/"><li class="nav-events-li">Dec 1: The Purpose Effect <br> Barran Liebman LLP</li></a>
+        <h2 class="nav-header">Upcoming Events</h2>
+        <ul>
+          <a target="blank" href="http://www.pages02.net/waldronhr/CHORSVPPDX/">
+            <li class="nav-events-li">
+              <span class="event-title">The Purpose Effect</span>
+              <br>
+              Thursday, December 1st
+              <br>
+              7:30 am - 10:00 am
+            </li>
+          </a>
+          <a class="nav-events-li" target="blank" href="https://www.google.com/maps/place/Moda+Tower,+601+SW+2nd+Ave+%232300,+Portland,+OR+97204/@45.5184543,-122.6770315,17z/data=!3m1!4b1!4m5!3m4!1s0x54950a05ed8611bb:0x71c8311bc51761b6!8m2!3d45.5184543!4d-122.6748428">
+            <li class="nav-events-location">Barran Liebman LLP</li></a>
+        </ul>
+        <section class="nav-news">
+          <h2 class="nav-header"> Recent News</h2>
+          <a  href="#"><li class="nav-news-li">Placeholder</li></a>
+        </section>
       </section>
+    </nav>
+
+      <!-- <section class="nav-events">
+        <a target="blank" href="http://www.pages02.net/waldronhr/CHORSVPPDX/"><li class="nav-events-li">Dec 1: The Purpose Effect <br> Barran Liebman LLP</li></a>
+      </section> -->
     </nav>
     <header class="container-fluid">
       <section class="section-header row">
-        <img  class="desktop-header col-xs-7 col-xs-offset-1  col-lg-7 col-lg-offset-1 section-header-img" src="compressed-images/portland-banner-min.png" alt="Portland Skyline">
+        <!-- <img  class="desktop-header col-xs-7 col-xs-offset-1  col-lg-7 col-lg-offset-1 section-header-img" src="compressed-images/portland-banner-min.png" alt="Portland Skyline"> -->
         <img  class="mobile-header col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 section-header-img" src="compressed-images/PDX-mobile-min.png" alt="Portland Skyline Mobile Image">
+        <div class="desktop-banner col-xs-7 col-xs-offset-1  col-lg-7 col-lg-offset-1">
+          <!-- Video Header -->
+          <video loop muted autoplay poster="img/videoframe.jpg" class="background-div-video desktop-header  section-header-img">
+              <source src="test-portland.mov" type="video/mp4">
+          </video>
+          <img class="desktop-banner-img" src="compressed-images/CHO-transparent.png" alt="CHO Logo">
+        </div>
+        <!-- End Video -->
       </section>
     </header>
     <main class="main">
