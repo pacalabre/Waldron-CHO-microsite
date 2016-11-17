@@ -213,7 +213,7 @@ a:visited {
 }
 
 .section-header {
-  margin-top: 41px;
+  margin-top: 70px;
   overflow: hidden;
 }
 
@@ -391,6 +391,14 @@ a:hover {
 
   .nav-ul-desktop {
     display: block;
+  }
+
+  .main {
+    margin-top: 60px;
+  }
+
+  .section-header {
+    margin-top: 41px;
   }
 
   .desktop-banner {
