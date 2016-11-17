@@ -237,6 +237,12 @@ a:visited {
   display: none;
 }
 
+/* Carousel Styles */
+
+.carousel-control.left, .carousel-control.right  {
+  background: transparent;
+}
+
 
 /* Contact Section */
 
