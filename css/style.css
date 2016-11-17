@@ -292,7 +292,7 @@ a:visited {
 /* Hover Styles */
 
 .nav-events-li:hover, .event-list-li:hover,
-.desktop-li:hover, .mobile-li:hover  {
+.desktop-li:hover, .mobile-li:hover, .nav-news-li:hover  {
   color: #f39c12;
 }
 
