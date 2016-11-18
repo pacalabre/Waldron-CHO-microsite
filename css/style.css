@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   font-family: 'Poppins', arial;
-  color: white;
+  color: #1a1a1a;
 }
 
 a {
@@ -171,7 +171,7 @@ a:visited {
 
 .background-div-video {
     position: fixed;
-    top: -120px;
+    top: -300px;
     left: -100px;
     min-height: 43%;
 }
@@ -206,7 +206,7 @@ a:visited {
 /* Events Section */
 
 .main-events-h2 {
-  color: white;
+  color: #1e1e1e;
   clear: both;
 }
 
@@ -296,10 +296,12 @@ a:visited {
 /* Footer */
 
 .footer {
+  background-color: #1e1e1e;
   text-align: center;
   padding-top: 70px;
   clear: both;
   height: 100%;
+  width: 100%;
 }
 
 .footer-img {
@@ -387,13 +389,13 @@ a:hover {
 
 @media (min-width: 768px) {
 
+  p {
+    color: white;
+  }
+
   .nav-ul-desktop {
     display: block;
   }
-
- /* .main {
-    margin-top: 80px;
-  }*/
 
   .section-header {
     margin-top: 40px;
@@ -408,6 +410,10 @@ a:hover {
     height: 200px;
     margin: 50px auto;
     display: block;
+  }
+
+  .main-events-h2 {
+    color: white;
   }
 
   .mobile-menu {
