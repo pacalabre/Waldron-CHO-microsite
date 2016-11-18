@@ -189,19 +189,19 @@ a:visited {
 }
 
 .fallback-image-portland {
-  background-image: url('../compressed-images/pdx.jpeg');
+  background-image: url('../compressed-images/portland-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .fallback-image-seattle {
-  background-image: url('../compressed-images/pdx.jpeg');
+  background-image: url('../compressed-images/seattle-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .fallback-image-phoenix {
-  background-image: url('../compressed-images/pdx.jpeg');
+  background-image: url('../compressed-images/phoenix-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
