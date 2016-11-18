@@ -188,24 +188,6 @@ a:visited {
   opacity: .9;
 }
 
-.fallback-image-portland {
-  background-image: url('../compressed-images/portland-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.fallback-image-seattle {
-  background-image: url('../compressed-images/seattle-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.fallback-image-phoenix {
-  background-image: url('../compressed-images/phoenix-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 
 /* Write Up Section */
 
@@ -318,7 +300,7 @@ a:visited {
 /* Footer */
 
 .footer {
-  background-color: transparent;
+  background-color: #1e1e1e;
   text-align: center;
   padding-top: 70px;
   clear: both;
@@ -413,6 +395,24 @@ a:hover {
     color: white;
   }
 
+  .fallback-image-portland {
+  background-image: url('../compressed-images/portland-min.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+  .fallback-image-seattle {
+    background-image: url('../compressed-images/seattle-min.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .fallback-image-phoenix {
+    background-image: url('../compressed-images/phoenix-min.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   .nav-ul-desktop {
     display: block;
   }
@@ -454,6 +454,10 @@ a:hover {
 
   .iframe-pdf {
   display: block;
+  }
+
+  .footer {
+    background-color: transparent;
   }
 }
 
