@@ -171,9 +171,9 @@ a:visited {
 
 .background-div-video {
   position: fixed;
-  top: -100px;
-  left: -100px;
-  /*min-height: 43%;*/
+  top: -150px;
+  left: 0px;
+  height: 140%;
 }
 
 .desktop-banner {
@@ -182,6 +182,10 @@ a:visited {
 
 .desktop-banner-img {
   display: none;
+}
+
+.desktop-banner-img-sea {
+  opacity: .9;
 }
 
 
