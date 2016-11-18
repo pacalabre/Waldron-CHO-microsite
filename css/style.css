@@ -188,6 +188,24 @@ a:visited {
   opacity: .9;
 }
 
+.fallback-image-portland {
+  background-image: url('../compressed-images/pdx.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fallback-image-seattle {
+  background-image: url('../compressed-images/pdx.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fallback-image-phoenix {
+  background-image: url('../compressed-images/pdx.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 
 /* Write Up Section */
 
