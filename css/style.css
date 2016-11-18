@@ -475,38 +475,7 @@ a:hover {
 
 }
 
-@media only screen and (min-width : 992px) {
-
- /* .nav-header {
-    font-size: 22px;
-  }
-
-  .nav-events-li {
-    font-size: 18px;
-  }
-
-  .nav-events-location {
-    font-size: 15px;
-  }
-
-  .nav-news-li {
-    font-size: 18px;
-  }*/
-}
-
 @media only screen and (min-width : 1350px) {
-
-  /*.nav-ul-desktop {
-  padding-bottom: 55px;
-}
-
-  .section-header {
-    padding-top: 55px;
-  }
-
-  .nav-brand-img {
-    margin: 4em auto;
-  }*/
 
   .nav-header {
     font-size: 22px;
