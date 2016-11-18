@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   font-family: 'Poppins', arial;
-  color: #1a1a1a;
+  color: white;
 }
 
 a {
@@ -170,8 +170,7 @@ a:visited {
 /* Video Styles */
 
 .background-div-video {
-    position: relative;
-    position: absolute;
+    position: fixed;
     top: -341px;
     left: -525px;
     min-height: 43%;
@@ -207,6 +206,7 @@ a:visited {
 /* Events Section */
 
 .main-events-h2 {
+  color: white;
   clear: both;
 }
 
@@ -296,7 +296,6 @@ a:visited {
 /* Footer */
 
 .footer {
-  background-color: #1e1e1e;
   text-align: center;
   padding-top: 70px;
   clear: both;
@@ -326,7 +325,7 @@ a:visited {
 .cho-btn:hover {
   background-color: #1e1e1e;
   color: white;
-  border: solid white thin;
+  border: solid transparent thin;
   margin-top:39px;
   margin-bottom: 19px;
   cursor: pointer;
@@ -392,9 +391,9 @@ a:hover {
     display: block;
   }
 
-  .main {
+ /* .main {
     margin-top: 80px;
-  }
+  }*/
 
   .section-header {
     margin-top: 40px;
