@@ -170,10 +170,10 @@ a:visited {
 /* Video Styles */
 
 .background-div-video {
-    position: fixed;
-    top: -300px;
-    left: -100px;
-    min-height: 43%;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  /*min-height: 43%;*/
 }
 
 .desktop-banner {
@@ -296,12 +296,10 @@ a:visited {
 /* Footer */
 
 .footer {
-  background-color: #1e1e1e;
+  background-color: transparent;
   text-align: center;
   padding-top: 70px;
   clear: both;
-  height: 100%;
-  width: 100%;
 }
 
 .footer-img {
