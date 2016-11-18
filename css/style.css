@@ -62,13 +62,13 @@ a:visited {
 /* Nav Styles */
 
 .nav-top {
+  opacity: .8;
   background-color: #1a1a1a;
   height: 100%;
   width: 25%;
   margin-left: 75%;
   position: fixed;
   z-index: 10000;
-  border-left: solid white thin;
 }
 
 .active {
@@ -171,8 +171,8 @@ a:visited {
 
 .background-div-video {
     position: fixed;
-    top: -341px;
-    left: -525px;
+    top: -120px;
+    left: -100px;
     min-height: 43%;
 }
 
