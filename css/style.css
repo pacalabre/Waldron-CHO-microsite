@@ -180,6 +180,11 @@ a:visited {
   top: -200px;
 }
 
+.background-div-video-phx {
+  top: 0px;
+  height: 110%;
+}
+
 .desktop-banner {
   height: 0px;
 }
