@@ -4,10 +4,10 @@
 
 var eventData = [
   {
-    "date": "2016-12-01",
+    "date": "2017-02-15",
     "badge": true,
-    "title": "The Purpose Effect",
-    "body":"<p>The Impact of Aligning Personal, Role, and Organizational Purpose</p>",
+    "title": "Driving Business Results Through Fearless HR",
+    "body":"<p>economy. Examine five historical perceptions that have dogged HR over the years; and hear evidence, research and examples to suggest a bold future in which HR drives business results and enables talent and innovation to flourish.</p>",
     "footer":"Barran Liebman LLP 601 SW 2nd Avenue Suite 2300 Portland, OR"
   }
 

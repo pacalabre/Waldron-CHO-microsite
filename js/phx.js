@@ -3,13 +3,13 @@
 // Calendar Plugin
 
 var eventData = [
-  // {
-  //   "date": "2016-11-30",
-  //   "badge": true,
-  //   "title": "The Purpose Effect",
-  //   "body":"<p>The Impact of Aligning Personal, Role, and Organizational Purpose</p>",
-  //   "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
-  // }
+  {
+    "date": "2017-01-24",
+    "badge": true,
+    "title": "Why Diversity Programs Fail",
+    "body":"<p>And what works better</p>",
+    "footer":"2415 E Camelback Rd Suite 800, Phoenix, AZ 85016"
+  }
 ];
 
 $(document).ready(function () {

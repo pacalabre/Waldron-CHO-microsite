@@ -4,10 +4,10 @@
 
 var eventData = [
   {
-    "date": "2016-11-30",
+    "date": "2017-01-19",
     "badge": true,
-    "title": "The Purpose Effect",
-    "body":"<p>The Impact of Aligning Personal, Role, and Organizational Purpose</p>",
+    "title": "The Neuroscience of Diversity and Inclusion",
+    "body":"<p>From Awareness to Change</p>",
     "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
   }
   // ,{
