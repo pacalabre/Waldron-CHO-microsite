@@ -122,6 +122,10 @@ a:visited {
   font-size: 15px;
 }
 
+.nav-events-li-two {
+  margin-top: 0px;
+}
+
 .event-title {
   font-weight: 700;
 }
