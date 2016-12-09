@@ -63,7 +63,7 @@ a:visited {
 /* Nav Styles */
 
 .nav-top {
-  opacity: .8;
+  opacity: 1;
   background-color: #1a1a1a;
   height: 100%;
   width: 25%;
@@ -408,6 +408,10 @@ a:hover {
 
   p {
     color: white;
+  }
+
+  .nav-top {
+    opacity: .8;
   }
 
   .fallback-image-portland {
