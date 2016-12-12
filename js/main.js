@@ -10,13 +10,13 @@ var eventData = [
     "body":"<p>From Awareness to Change</p>",
     "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
   }
-  // ,{
-  //   "date": "2016-10-23",
-  //   "badge": false,
-  //   "title": "CHO Event",
-  //   "body":"<p></p>",
-  //   "footer":"Portland"
-  // }
+  ,{
+    "date": "2017-03-08",
+    "badge": true,
+    "title": "CHO Event",
+    "body":"<p>Design Thinking</p>",
+    "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
+  }
 ];
 
 $(document).ready(function () {

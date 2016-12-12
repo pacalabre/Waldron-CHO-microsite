@@ -9,6 +9,13 @@ var eventData = [
     "title": "Why Diversity Programs Fail",
     "body":"<p>And what works better</p>",
     "footer":"2415 E Camelback Rd Suite 800, Phoenix, AZ 85016"
+  },
+  {
+    "date": "2017-03-29",
+    "badge": true,
+    "title": "The Purpose Effect",
+    "body":"<p>The Impact of Aligning Personal, Role, & Organization Purpose</p>",
+    "footer":"2415 E Camelback Rd Suite 800, Phoenix, AZ 85016"
   }
 ];
 
