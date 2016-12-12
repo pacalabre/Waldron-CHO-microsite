@@ -13,7 +13,7 @@ var eventData = [
   ,{
     "date": "2017-03-08",
     "badge": true,
-    "title": "CHO Event",
+    "title": "Design Thinking",
     "body":"<p>Design Thinking</p>",
     "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
   }
