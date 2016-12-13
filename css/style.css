@@ -336,10 +336,14 @@ a:visited {
 
 /* Hover Styles */
 
-/*.nav-events-li:hover,*/
+.nav-events-li:hover,
  .event-list-li:hover,
 .desktop-li:hover, .mobile-li:hover, .nav-news-li:hover  {
   color: #f39c12;
+}
+
+.nav-event-not-active:hover {
+  color: white;
 }
 
 .cho-btn:hover {
