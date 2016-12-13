@@ -70,7 +70,7 @@ a:visited {
   margin-left: 75%;
   position: fixed;
   z-index: 10000;
-  overflow: scroll;
+  overflow: initial;
 }
 
 .active {
@@ -417,6 +417,7 @@ a:hover {
 
   .nav-top {
     opacity: .8;
+    overflow: scroll;
   }
 
   .fallback-image-portland {
