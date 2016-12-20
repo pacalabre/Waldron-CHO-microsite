@@ -342,7 +342,7 @@ a:visited {
   color: #f39c12;
 }
 
-.nav-event-not-active:hover {
+.nav-events-li:hover .nav-event-not-active, .nav-event-not-active:hover {
   color: white;
 }
 
