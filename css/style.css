@@ -457,7 +457,16 @@ a:hover {
     display: block;
   }
 
-  .main-events-h2 {
+  .event-section {
+    margin: 40px auto;
+  }
+
+  .main-events-h2, .main-contact-h2 {
+    color: white;
+    font-size: 40px;
+  }
+
+  .event-title, .event-info {
     color: white;
   }
 
