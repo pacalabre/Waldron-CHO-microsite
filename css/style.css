@@ -104,7 +104,7 @@ a:visited {
 
 .nav-header {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .nav-events {
@@ -336,7 +336,7 @@ a:visited {
 
 /* Hover Styles */
 
-.nav-events-li:hover,
+.nav-events-li:hover .nav-event-info, .nav-events-li:hover, .nav-event-title:hover,
  .event-list-li:hover,
 .desktop-li:hover, .mobile-li:hover, .nav-news-li:hover  {
   color: #f39c12;
@@ -466,8 +466,16 @@ a:hover {
     font-size: 40px;
   }
 
-  .event-title, .event-info {
+  .nav-event-title, .event-title, .event-info, .nav-event-info {
     color: white;
+  }
+
+  .nav-event-title {
+    font-size: 18px;
+  }
+
+  .nav-event-info {
+    font-size: 14px;
   }
 
   .mobile-menu {
