@@ -55,6 +55,10 @@ a:visited {
   cursor: pointer;
 }
 
+.rsvp-btn {
+  margin-top:0px;
+}
+
 .container-fluid {
   padding: 0px 0px;
 }
@@ -357,6 +361,10 @@ a:visited {
   margin-top:39px;
   margin-bottom: 19px;
   cursor: pointer;
+}
+
+.rsvp-btn:hover {
+  margin-top: -1px;
 }
 
 .active:hover {
