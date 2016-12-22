@@ -433,7 +433,7 @@ a:hover {
   }
 
   .fallback-image-portland {
-  background-image: url('../compressed-images/portland-min.png');
+  background-image: url('../compressed-images/portland-optimized.jpg');
   background-size: cover;
   background-attachment: fixed;
   }
@@ -445,7 +445,7 @@ a:hover {
   }
 
   .fallback-image-phoenix {
-    background-image: url('../compressed-images/phoenix-min.png');
+    background-image: url('../compressed-images/phoenix-optimized.jpg');
     background-size: cover;
     background-attachment: fixed;
   }
