@@ -269,6 +269,10 @@ a:visited {
   cursor: pointer;
 }
 
+.section-event-details-icon {
+  display: none;
+}
+
 .section-previous-events {
   clear: both;
   display: none;
@@ -500,6 +504,15 @@ a:hover {
 
   .mobile-header {
     display: none;
+  }
+
+  .section-event-details {
+    margin: 20px 0px;
+  }
+
+  .section-event-details-icon {
+    display: block;
+    height: 50px;
   }
 
   .section-previous-events {
