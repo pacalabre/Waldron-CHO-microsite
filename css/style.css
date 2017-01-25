@@ -23,6 +23,10 @@ a:visited {
     color: inherit;
 }
 
+input[type=checkbox], input[type=radio] {
+  margin-right: 5px;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -316,6 +320,22 @@ a:visited {
   padding-top: 8px;
   font-family: 'Poppins', arial;
   font-size: 17px;
+}
+
+.contact-checkbox-top {
+  margin-top: 5px;
+}
+
+.contact-checkbox {
+  /*text-align: center;
+  display: block;
+  margin: 0 auto;*/
+  font-weight: 200;
+  color: white;
+}
+
+.email-list {
+  display: none;
 }
 
 .form-textarea {

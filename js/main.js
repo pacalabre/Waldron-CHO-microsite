@@ -36,5 +36,26 @@ $('#mobileBtn').click(function(){
   $('#mobileBtn').toggleClass('mobile-menu-clicked-hamburger');
 })
 
+// Contact Form
+
+var txtArea = document.getElementById("txtArea");
+var choMessage= document.getElementById("choMessage");
+var eventsMessage = document.getElementById("eventsMessage");
+
+$('input[type=checkbox]').change(
+    function(){
+        if (choMessage.checked && eventsMessage.checked) {
+            txtArea.value =  choMessage.value +" and "+  eventsMessage.value;
+        }
+        else if (choMessage.checked) {
+            txtArea.value = choMessage.value;
+        } else if (eventsMessage.checked) {
+            txtArea.value = eventsMessage.value;
+        }
+    });
+
+
+
+
 
 
