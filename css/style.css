@@ -299,6 +299,12 @@ input[type=checkbox], input[type=radio] {
   background: transparent;
 }
 
+/* Previous Events */
+
+.prev-event {
+  margin-bottom: 20px;
+}
+
 
 /* Contact Section */
 

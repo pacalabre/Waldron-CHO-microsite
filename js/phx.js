@@ -11,7 +11,7 @@ var eventData = [
     "footer":"2415 E Camelback Rd Suite 800, Phoenix, AZ 85016"
   },
   {
-    "date": "2017-03-29",
+    "date": "2017-06-04",
     "badge": true,
     "title": "The Purpose Effect",
     "body":"<p>The Impact of Aligning Personal, Role, & Organization Purpose</p>",
