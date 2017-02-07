@@ -306,6 +306,10 @@ input[type=checkbox], input[type=radio] {
   cursor: auto;
 }
 
+.prev-event-h {
+  color: white;
+}
+
 
 /* Contact Section */
 
