@@ -27,6 +27,10 @@ input[type=checkbox], input[type=radio] {
   margin-right: 5px;
 }
 
+input[type="text"], input[type="email"], textarea {
+  width: 80%;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -307,7 +311,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .prev-event-h {
-  color: white;
+  color: #1e1e1e;
 }
 
 
@@ -322,7 +326,7 @@ input[type=checkbox], input[type=radio] {
   color: white;
   text-align: center;
   font-size: 40px;
-  margin: 50px 0px 30px 0px;
+  margin: 30px 0px;
 }
 
 .form-label {
@@ -338,9 +342,6 @@ input[type=checkbox], input[type=radio] {
 }
 
 .contact-checkbox {
-  /*text-align: center;
-  display: block;
-  margin: 0 auto;*/
   font-weight: 200;
   color: white;
 }
@@ -352,6 +353,66 @@ input[type=checkbox], input[type=radio] {
 .form-textarea {
   margin-top: 15px;
   height: 150px;
+}
+
+/* Hubspot Form Styles*/
+
+.hbspt-form {
+  margin-left: 16%;
+  margin-top: 15px;
+}
+
+.base-hs-button-styles, .hs-form, .hs-button {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.hs-form label {
+  color: white;
+  padding-top: 0px;
+  padding-left: 0px;
+  font-size: 17px;
+  font-family: 'poppins', arial;
+}
+
+.hs-form .hs_cho_events_radio label, .hs-form .hs_cho_group_info label {
+  font-size: 14px;
+}
+
+.hs_cho_group_info {
+  margin-top: -10px;
+}
+
+.hs_cho_events_radio {
+  margin-top: -30px;
+}
+
+.hs-field-desc {
+  display: none;
+}
+
+.hs_message label {
+  display: none;
+}
+
+.input textarea {
+  margin-top: -10px;
+  height: 100px;
+}
+
+.hs-form .hs-button {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: black;
+  background-color: #ffcc00;
+  background-color: #f39c12;
+  border: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
 }
 
 
@@ -396,6 +457,15 @@ input[type=checkbox], input[type=radio] {
   margin-top:39px;
   margin-bottom: 19px;
   cursor: pointer;
+}
+
+.hs-button:hover {
+  background-color: #1e1e1e;
+  color: white;
+  border: solid transparent thin;
+  cursor: pointer;
+  margin-bottom: 38px;
+  border: white solid thin;
 }
 
 .rsvp-btn:hover {
@@ -514,7 +584,7 @@ a:hover {
     font-size: 40px;
   }
 
-  .nav-event-title, .event-title, .event-info, .nav-event-info {
+  .nav-event-title, .event-title, .event-info, .nav-event-info, .prev-event-h {
     color: white;
   }
 
