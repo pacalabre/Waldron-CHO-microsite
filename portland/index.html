@@ -28,14 +28,14 @@
       <ul class="nav-ul-desktop hide-menu">
         <a href="/"><li class="desktop-li">Seattle</li></a>
         <li class="desktop-li active">Portland</li>
-        <a href="../phoenix/index.html"><li class="desktop-li">Phoenix</li></a>
+        <a href="../phoenix/"><li class="desktop-li">Phoenix</li></a>
       </ul>
       <!-- Mobile Menu -->
       <span id="mobileBtn"  class="mobile-menu glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
       <ul id="mobileMenu"  class="nav-ul-mobile hide-menu">
-        <a href="index.html"><li class="mobile-li">Seattle</li></a>
-        <a href="portland/index.html"><li class="mobile-li">Portland</li></a>
-        <a href="../phoenix/index.html"><li class="mobile-li">Phoenix</li></a>
+        <a href="/"><li class="mobile-li">Seattle</li></a>
+        <li class="mobile-li">Portland</li>
+        <a href="../phoenix/"><li class="mobile-li">Phoenix</li></a>
       </ul>
       <section class="nav-events">
         <h2 class="nav-header">Upcoming Events</h2>
@@ -117,7 +117,7 @@
             <img class="section-event-details-icon" src="../svg-icons/calendar-new.svg">
             <h4 class="event-info col-xs-12">June 1, 2017<br> 7:30 am - 10:00 am</h4>
           </section>
-          <p class="col-xs-12">Businesses started taking diversity very seriously in the late 1990’s and early 2000’s after several high profile lawsuits resulting in over $500-million in settlements rocked corporate America. Since then, despite huge capital investment and the appointment of Chief Diversity Officers everywhere, most diversity programs have not increased diversity and some have even made matters worse.   At the January 24th CHO Group session, Professor Frank Dobbin of Harvard University will explain why reliance on programs and practices in use since the 1960’s have activated rather than quashed bias in the workplace. Having analyzed three decades’ worth of data from more than 800 U.S. firms, Professor Dobbin will also share the strategies and techniques that have proven effective in increasing organizational diversity. </p>
+          <p class="col-xs-12">Businesses started taking diversity very seriously in the late 1990’s and early 2000’s after several high profile lawsuits resulting in over $500-million in settlements rocked corporate America. Since then, despite huge capital investment and the appointment of Chief Diversity Officers everywhere, most diversity programs have not increased diversity and some have even made matters worse. At the June 1st CHO Group session, Professor Frank Dobbin of Harvard University will explain why reliance on programs and practices in use since the 1960’s have activated rather than quashed bias in the workplace. Having analyzed three decades’ worth of data from more than 800 U.S. firms, Professor Dobbin will also share the strategies and techniques that have proven effective in increasing organizational diversity. </p>
         </section>
         <section class="main-section-calendar col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
           <!-- Calendar Plugin https://github.com/zabuto/calendar -->
@@ -135,22 +135,20 @@
         </section>
       </section>
       <section id="contactSection" class="col-xs-12  main-section-form">
-        <h2 class="main-contact-h2 col-sm-7 col-sm-offset-1">Contact</h2>
-        <!-- CONTACT FORM USING formspree.io -->
-        <form id="form" method="POST" action="http://formspree.io/chogroup.pdx@waldronhr.com" class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-1">
-          <label class="col-xs-5 col-sm-6 col-sm-offset-1 form-label">Name:</label>
-          <input type="text" name="name" placeholder="Your Name" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-4">
-          <label class="col-xs-5 col-sm-6 col-sm-offset-1 form-label">E-Mail:</label>
-          <input type="email" name="_replyto" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-4">
-          <label class="col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 contact-checkbox contact-checkbox-top"><input id="choMessage" type="checkbox" value="Send me information on CHO membership">Send me CHO Group membership information</label>
-          <br>
-          <label class="col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 contact-checkbox"><input  type="checkbox" id="eventsMessage" value="Send me information on upcoming events">Send me information on upcoming events</label>
-          <textarea name="message" class="form-textarea col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2"></textarea>
-          <textarea class="email-list" id="txtArea" name="e-mail list"></textarea>
-          <!-- ENTER THE REDIRECT PAGE BELOW IN VALUE-->
-          <input type="hidden" name="_next" value="portland-form-submit.html" />
-          <button type="submit" class="cho-btn col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">SUBMIT</button>
-        </form>
+        <div class="col-sm-7 col-sm-offset-1">
+          <h2 class="main-contact-h2">Contact</h2>
+            <!--[if lte IE 8]>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+            <![endif]-->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                css: '',
+                portalId: '2571930',
+                formId: '370d05ad-5c50-49c0-bdf4-5b9ae09c7716'
+              });
+            </script>
+        </div>
       </section>
     </main>
     <footer class="footer col-sm-5 col-sm-offset-2">

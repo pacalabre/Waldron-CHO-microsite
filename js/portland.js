@@ -15,9 +15,7 @@ var eventData = [
     "date": "2017-06-01",
     "badge": true,
     "title": "Why Diversity Programs Fail And What Works Better",
-    "body":"Businesses started taking diversity very seriously in the late 1990's and early 2000's after several high profile lawsuits resulting in over $500-million in settlements rocked corporate America. Since then, despite huge capital investment and the appointment of Chief Diversity Officers everywhere, most diversity programs have not increased diversity and some have even made matters worse.
-
-",
+    "body":"<p>Businesses started taking diversity very seriously in the late 1990's and early 2000's after several high profile lawsuits resulting in over $500-million in settlements rocked corporate America. Since then, despite huge capital investment and the appointment of Chief Diversity Officers everywhere, most diversity programs have not increased diversity and some have even made matters worse.</p>",
     "footer":"Barran Liebman LLP 601 SW 2nd Avenue Suite 2300 Portland, OR"
   }
 
