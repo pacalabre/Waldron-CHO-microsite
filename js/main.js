@@ -16,6 +16,20 @@ var eventData = [
     "title": "Design Thinking",
     "body":"<p>Design Thinking</p>",
     "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
+  }, 
+  {
+    "date": "2017-06-22",
+    "badge": true,
+    "title": "Microsoft's Growth Mindset Cultural Transformation",
+    "body":"<p>Growth Mindset</p>",
+    "footer":"11200 Southeast 6th Bellevue, WA 98004"
+  },
+  {
+    "date": "2017-10-25",
+    "badge": true,
+    "title": "How Enterprise Leaders Build Game Changing Organizations",
+    "body":"<p>Enterprise Leaders</p>",
+    "footer":"701 5TH Avenue, Suite 6100 Columbia Center Seattle, WA"
   }
 ];
 
