@@ -16,6 +16,13 @@ var eventData = [
     "title": "The Purpose Effect",
     "body":"<p>The Impact of Aligning Personal, Role, & Organization Purpose</p>",
     "footer":"2415 E Camelback Rd Suite 800, Phoenix, AZ 85016"
+  },
+    {
+    "date": "2017-10-12",
+    "badge": true,
+    "title": "Driving Change Leadership",
+    "body":"<p>Leveraging HR's Role as Strategic Change Agent</p>",
+    "footer":"2415 E Camelback Rd Suite 800, Phoenix, AZ 85016"
   }
 ];
 
