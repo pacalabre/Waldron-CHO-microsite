@@ -423,7 +423,7 @@ input[type="text"], input[type="email"], textarea {
 
 /* Hover Styles */
 
-.nav-events-li:hover .nav-event-info, .nav-events-li:hover, .nav-event-title:hover,
+.nav-events-li:hover .nav-event-info, .nav-events-li:hover .nav-event-title, .nav-events-li:hover,
  .event-list-li:hover,
 .desktop-li:hover, .mobile-li:hover, .nav-news-li:hover  {
   color: #f39c12;
