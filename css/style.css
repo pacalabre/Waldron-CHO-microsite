@@ -272,6 +272,10 @@ input[type="text"], input[type="email"], textarea {
   padding: 5px;
 }
 
+.event-info {
+  padding-left: 0;
+}
+
 .section-event-img {
   padding-bottom: 10px;
   cursor: pointer;
@@ -451,7 +455,7 @@ input[type="text"], input[type="email"], textarea {
   margin-top: -1px;
 }
 
-.active:hover {
+.active:hover, .not-active:hover {
   color: white;
 }
 
